@@ -32,4 +32,13 @@ Public Class Formulary
             CType(DataGridView1.DataSource, DataTable).DefaultView.RowFilter = ""
         End If
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        TextBox2.Show()
+        Label2.Show()
+        Button4.Show()
+        Button2.Hide()
+    End Sub
+
+
 End Class

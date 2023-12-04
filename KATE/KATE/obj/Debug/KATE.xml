@@ -22,5 +22,10 @@ KATE
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:KATE.My.Resources.Resources.simple_blank_green_background_53876_105460">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

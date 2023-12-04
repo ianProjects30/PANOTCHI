@@ -77,6 +77,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Confirm_Page.Designer.vb">
+      <DependentUpon>Confirm_Page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Confirm_Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CURRENT_MED.Designer.vb">
       <DependentUpon>CURRENT_MED.vb</DependentUpon>
     </Compile>
@@ -119,6 +125,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Confirm_Page.resx">
+      <DependentUpon>Confirm_Page.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CURRENT_MED.resx">
       <DependentUpon>CURRENT_MED.vb</DependentUpon>
     </EmbeddedResource>
@@ -149,6 +158,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\simple-blank-green-background_53876-105460.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
